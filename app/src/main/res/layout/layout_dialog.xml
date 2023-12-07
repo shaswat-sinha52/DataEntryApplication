@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/pop_edt1"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/pop_edt2"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Phone Nummber"/>
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_image_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Choose Image"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_addcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Add contact"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+</LinearLayout>
